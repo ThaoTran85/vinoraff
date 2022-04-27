@@ -1,0 +1,47 @@
+.contentWrapper {
+    padding: 32px 64px 92px;
+    background-color: #fff;
+    position: relative;
+}
+.title {
+    text-align: center;
+}
+
+.formContent {
+}
+.formContainer {
+    width: 800px;
+    margin: 0 auto;
+}
+.formButtonGroup {
+    display: flex;
+    background-color: #E3F2FD;
+    padding: 14px 64px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    justify-content: center;
+    gap: 10px;
+}
+
+.formButtonGroup button {
+    border: none;
+    outline: none;
+    /* background-color: transparent; */
+}
+.formItemDatePicker {
+    width: 100%;
+}
+.formItemWrapper {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.printButton {
+    background-color: #4caf50;
+    color: #fff;
+}
+.closeButton {
+}

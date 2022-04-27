@@ -1,0 +1,158 @@
+.container {
+    position: relative;
+}
+
+/* ============================== Side Bar ============================== */
+.menuBar {
+    /* background-color: #86c6f4; */
+    /* background-color: #f0f2f5; */
+    background-color: #fff;
+    position: fixed;
+    top: 64px;
+    left: 0;
+    bottom: 0;
+    z-index: 99;
+    height: calc(100% - 64px);
+    overflow: auto;
+    transition: 0.25s ease all;
+}
+.menuItem {
+    font-size: 16px;
+    color: rgb(119, 124, 119);
+}
+/* ============================== Menu Button============================== */
+.menuButton {
+    /* transform: translateY(-50%); */
+    /* z-index: 1; */
+    border: none;
+    background-color: transparent;
+    color: #1890ff;
+    font-size: 20px;
+    margin-left: 100px;
+}
+
+.menuButton:active, .menuButton:focus, .menuButton:hover {
+    color: #1890ff;
+}
+/* ============================== Right Content ============================== */
+.rightContainer {
+    /* background-color: red; */
+}
+
+.headerContent {
+    /* background-color: #86c6f4; */
+    background-color: #fff;
+    padding: 0;
+    position: fixed;
+    height: 64px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 98;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.logoContent {
+    margin-left: 46px;
+    padding-top: 28px;
+    width: 100px;
+}
+
+.titleContent {
+    margin-left: 20px;
+}
+
+.titleContent h2 {
+    font-size: 20px;
+    margin-bottom: 0;
+    color: #1890ff;
+}
+.userInfo {
+    position: relative;
+    margin-left: auto;
+    margin-right: 60px;
+}
+
+.content {
+    margin-top: 64px;
+    padding: 10px 40px;
+    overflow: initial;
+    height: calc(100% - 64px);
+}
+/* ============================== Nothing ============================== */
+.trigger {
+    padding: 0 24px;
+    font-size: 18px;
+    line-height: 64px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.trigger:hover {
+    color: #1890ff;
+}
+
+.logo {
+    height: 32px;
+    margin: 16px;
+    background: rgba(84, 163, 97, 0.3);
+}
+
+.layout .background {
+    background: #fff;
+}
+
+.background_page {
+    background: #f0f2f5;
+}
+
+.content_page {
+    background: #fff;
+    padding: 0 !important;
+    height: 100%;
+}
+
+.header_page {
+    background: #fff !important;
+    width: 100%;
+    position: fixed;
+    z-index: 900;
+}
+
+.avatar_dropdown {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    /* width: 100%; */
+}
+
+.user_name {
+    display: inline;
+    margin-right: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+}
+
+.user_avatar {
+    margin-top: -6px !important;
+}
+
+.list_profile {
+    margin-top: -5px;
+}
+
+.div_hearder {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.header_menu {
+    width: '100px';
+}

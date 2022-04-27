@@ -1,0 +1,17 @@
+.contentContainer {
+    padding: 32px 64px 92px;
+    background-color: #fff;
+}
+.affixButtonGroup {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 8px 64px;
+    background-color: #E3F2FD;
+}
+.searchWrapper {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,37 @@
+.contentContainer {
+    padding: 16px ;
+    background-color: #fff;
+}
+.contentTitle {
+    text-align: center;
+    padding: 16px;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 700;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+.searchWrapper {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.tableWrapper {
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); */
+}
+.tableWrapper h2 {
+    padding: 15px 10px;
+}
+.formButtonGroup {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr;
+}
+.affixButtonGroup {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 8px 64px;
+    background-color: #e3f2fd;
+}

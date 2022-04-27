@@ -1,0 +1,17 @@
+.content{
+    color: brown;
+}
+.none{
+    display: none;
+}
+
+  
+  @page {
+    size: A4;
+    @bottom-right {
+      content: "Page " counter(page) " of " counter(pages);
+    }
+    @bottom-left {
+      content: string(footerTitle);
+    }
+  }

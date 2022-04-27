@@ -1,0 +1,176 @@
+.wrapperContent {
+    padding: 32px 64px;
+    background-color: #fff;
+}
+
+.wrapperButtonColumn {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 16px;
+}
+
+.wrapperTitle {
+    padding: 16px;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-around;
+}
+
+.wrapperSearchInput {
+    display: flex;
+    margin-bottom: -8px;
+    border-top: 1px solid rgba(0, 0, 0, 0.12);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    padding: 6px;
+}
+.wrapperSearchInput > input {
+    border: none;
+}
+.content_page {
+    background: #fff;
+}
+
+.affixConfig {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 64px;
+    background-color: #E3F2FD;
+}
+
+
+.buttonWrapper {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.titleModal {
+    text-align: center;
+}
+.titleModal h1 {
+    margin-bottom: 0;
+}
+.qlp__1 {
+    height: 100%;
+    padding: 15px;
+    background-color: #fff;
+}
+.qlp__2 {
+    text-align: right;
+    margin-top: 16px;
+}
+
+.qlp__3 {
+    margin-left: 8px;
+    background: #e3f2fd;
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.06);
+    border-radius: 3px;
+    border-color: #e3f2fd;
+    color: #1976d2;
+    height: 44px;
+    font-family: 500;
+    font-size: 16px;
+}
+.qlp__4 {
+    display: flex;
+}
+.qlp__5 {
+    margin-right: 4px;
+}
+.qlp__6 {
+    text-align: right;
+}
+.qlp__7 {
+    width: 100%;
+}
+.qlp__8 {
+    margin-top: 8px;
+}
+.qlp__9 {
+    text-align: right;
+    background-color: blue;
+    height: 45px;
+}
+.qlp__10 {
+    color: white;
+    margin-top: 11px;
+    margin-right: 8px;
+    margin-left: 20px;
+}
+.qlp__11 {
+    color: white;
+    margin-top: 5px;
+}
+.qlp__12 {
+    margin-top: 6px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+.qlp__13 {
+    margin-right: 8px;
+}
+.qlp__14 {
+    margin-right: 4px;
+}
+.qlp__15 {
+    text-align: center;
+    margin-top: 10px;
+}
+.qlp__16 {
+    margin-top: 16px;
+}
+.qlp__17 {
+    margin: 10px 0 5px;
+}
+
+.qlp__18 {
+    margin-top: 20px;
+}
+
+.qlp__19 {
+    width: 206px;
+    height: 44px;
+    background-color: #e3f2fd;
+    border: #e3f2fd;
+    color: #1976d2;
+}
+
+.qlp__19a {
+    width: 206px;
+    height: 44px;
+    background-color: #f44336;
+}
+
+.qlp__20 {
+    background-color: green;
+}
+
+.formItemDatePicker {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+}
+
+.formItemInput {
+    background-color: transparent;
+    border: none;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+}
+
+.formItemSelect {
+    background-color: transparent;
+    border: none;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+}
+
+.formItemTitle {
+    margin-bottom: 6px;
+    color: #1890ff;
+}

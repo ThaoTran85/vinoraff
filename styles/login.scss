@@ -1,0 +1,270 @@
+.login-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-flow: row nowrap;
+    align-items: center;
+    // background: rgba(0, 0, 0, 0.2);
+
+    box-shadow: none;
+    border-radius: 0px;
+    background-image: url('/assets/background-login.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+
+    .ant-spin-container {
+        border-radius: 10px;
+    }
+
+    &:before {
+        content: '';
+        position: absolute;
+        z-index: -1;
+        // background: url("/hero_2.jpg") no-repeat center;
+        // background: url("https://www.pixinvent.com/demo/frest-clean-bootstrap-admin-dashboard-template/app-assets/images/pages/auth-bg.jpghero_2.jpg") no-repeat center;
+        background-size: cover;
+        background: linear-gradient(to bottom right, #cee7d4, #5fa565);
+        top: 0px;
+        left: 0px;
+        bottom: 0px;
+        right: 0px;
+    }
+
+    .login-form-button {
+        width: 100%;
+    }
+
+    .ant-form-item-label > label,
+    .ant-checkbox {
+        font-size: 13px;
+    }
+    .ant-form-vertical .ant-form-item-label,
+    .ant-col-24.ant-form-item-label,
+    .ant-col-xl-24.ant-form-item-label {
+        padding: 0;
+    }
+}
+
+.login-grid {
+    // display: flex;
+    // flex-direction: row;
+    // flex-wrap: nowrap;
+    border-radius: 20px;
+    overflow: hidden;
+    // width: 30%;
+    width: 400px;
+    padding: 30px 40px 30px 32px;
+    // max-width: 1000px;
+    // min-height: 500px;
+    margin-top: -200px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+    position: relative;
+
+    // display: flex;
+    // flex-direction: row;
+    // align-items: flex-start;
+    // padding: 40px 50px;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0px 16px 40px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8px);
+    // height: 460px;
+}
+
+.login-grid-left {
+    // padding: 2em 3.07rem 1.53rem;
+    // background-color: #fff;
+    position: relative;
+    flex-grow: 1;
+}
+
+.login-grid-right {
+    background: rgba(0, 0, 0, 0.6);
+    width: 500px;
+    padding: 0px;
+    background-size: cover;
+    position: relative;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-quote-bg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    display: block;
+    background-blend-mode: multiply;
+    background-image: linear-gradient(
+        215.52deg,
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 0.46) 74.22%,
+        rgba(0, 0, 0, 0.65) 100%
+    );
+}
+
+.login-quote {
+    padding: 30px;
+    width: 100%;
+    z-index: 1;
+}
+
+.login-quote-text {
+    font-size: 32px;
+    line-height: 42px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    // color: rgba(255,255,255,0.85);
+    color: white;
+    width: 100%;
+    // font-family: 'Kalam', cursive;
+}
+
+.login-quote-source {
+    text-align: right;
+    font-size: 14px;
+    font-style: italic;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+input:-internal-autofill-selected {
+    background-color: white !important;
+}
+
+input:-webkit-autofill {
+    box-shadow: inset 0 0 0 50px #fff !important;
+}
+
+input[type='email'],
+input[type='password'],
+input[type='text'],
+textarea {
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    appearance: none !important;
+}
+
+#basic_password {
+    background: transparent !important;
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+.ant-input-affix-wrapper-focused {
+    box-shadow: none;
+}
+
+.ant-form-item-has-error :not(.ant-input-disabled):not(.ant-input-borderless).ant-input {
+    box-shadow: none;
+    border-color: none;
+}
+
+.ant-form-item-has-error :not(.ant-input-disabled):not(.ant-input-borderless).ant-input:focus,
+.ant-form-item-has-error
+    :not(.ant-input-affix-wrapper-disabled):not(.ant-input-affix-wrapper-borderless).ant-input-affix-wrapper:focus,
+.ant-form-item-has-error
+    :not(.ant-input-number-affix-wrapper-disabled):not(.ant-input-number-affix-wrapper-borderless).ant-input-number-affix-wrapper:focus,
+.ant-form-item-has-error :not(.ant-input-disabled):not(.ant-input-borderless).ant-input-focused,
+.ant-form-item-has-error
+    :not(.ant-input-affix-wrapper-disabled):not(.ant-input-affix-wrapper-borderless).ant-input-affix-wrapper-focused,
+.ant-form-item-has-error
+    :not(.ant-input-number-affix-wrapper-disabled):not(.ant-input-number-affix-wrapper-borderless).ant-input-number-affix-wrapper-focused {
+    box-shadow: none;
+}
+
+// loading
+.loading__overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+
+    visibility: hidden;
+    opacity: 0;
+    transition-duration: 0.4s;
+
+    .ant-spin {
+        margin-top: 4px;
+    }
+
+    &.is-active {
+        visibility: visible;
+        opacity: 1;
+
+        .loading__target {
+            opacity: 1;
+            transform: translate3d(0, 0, 0) scale(1);
+        }
+    }
+}
+
+.ant-spin-nested-loading > div > .ant-spin {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 4;
+    display: block;
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+}
+
+.spin__white {
+    .ant-spin-dot-item {
+        color: white;
+    }
+}
+
+.ant-spin-blur {
+    z-index: -1;
+    opacity: 1;
+}
+.ant-spin-blur::after {
+    opacity: 0.55;
+    pointer-events: auto;
+}
+
+.loading__target {
+    width: 150px;
+    height: 70px;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 230px;
+    border-radius: 13px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.95);
+    will-change: transform, opacity;
+
+    user-select: none;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+
+    opacity: 0;
+    transform: translate3d(0, 0, 0) scale(1.185);
+
+    transition-duration: 0.4s;
+
+    will-change: transform, opacity;
+
+    opacity: 1;
+}
+
+.loading__text {
+    font-size: 16px;
+    color: gray('800');
+    margin-left: 15px;
+    margin-bottom: 0px;
+}

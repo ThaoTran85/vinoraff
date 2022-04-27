@@ -1,0 +1,59 @@
+.wrapperContent {
+    padding: 32px 64px 92px;
+    background-color: #fff;
+}
+
+.contentTitle {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.searchWrapper {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+.modalTitle {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.tableWrapper {
+    /* box-shadow: 0 0 10px rgba(0,0,0,.3); */
+}
+.tableWrapper h2 {
+    padding: 15px 10px;
+}
+.formTitle {
+    text-align: center;
+}
+.formItem {
+    margin-bottom: 10px;
+}
+.formItemDatePicker {
+    width: 100%;
+}
+
+.formButtonGroup {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+/* ----------------- Modal ----------------- */
+.modalText {
+    text-align: center;
+    margin-bottom: 10px;
+}
+/* ----------------- Affix ----------------- */
+.affixConfig {
+    background-color: #e3f2fd;
+    padding: 8px 64px;
+}
+.affixButtonGroup {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}

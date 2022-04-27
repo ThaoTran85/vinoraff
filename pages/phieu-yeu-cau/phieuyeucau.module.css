@@ -1,0 +1,274 @@
+.trigger {
+    /* padding: 0 24px; */
+    font-size: 18px;
+    line-height: 64px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.trigger:hover {
+    color: #1890ff;
+}
+
+.logo {
+    margin-top: 10px !important;
+}
+
+.layout .background {
+    background: #fff;
+}
+
+.background_page {
+    background: #f0f2f5;
+    /* width: 100vw; */
+    /* height: 100vh; */
+}
+
+.content_page {
+    background: #fff;
+}
+
+.header_page {
+    background: #fff !important;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    padding: 0;
+}
+
+.avatar_dropdown {
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 0 30px 0 0;
+}
+
+.user_name {
+    margin-right: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.user_avatar {
+    margin-top: -6px !important;
+}
+
+.list_profile {
+    margin-top: -5px;
+}
+
+.row__mui {
+    padding: 4px 0 5px !important;
+    width: 100%;
+}
+
+.ngay {
+    margin-top: -9px !important;
+}
+
+.tp__1 {
+    margin-top: 20px;
+}
+
+.tp__2 {
+    text-align: center;
+}
+
+.tp__3 {
+    font-size: 20px;
+}
+
+.tp__4 {
+    margin-top: 13px;
+    font-size: 13px;
+}
+
+.tp__5 {
+    text-align: center;
+    margin-top: 35px;
+}
+
+/* .tp__6{
+    width: 100vw;
+    height: 100vh;
+} */
+
+.tp__7 {
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.tp__8 {
+    background-color: white;
+}
+
+.tp__9 {
+    margin-top: 70px;
+}
+
+.tp__10 {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.f_s_w_18_700 {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.tp__11 {
+    font-size: 16px;
+}
+
+.tp__12 {
+    margin-top: 16px;
+}
+
+.tp__13 {
+    margin-top: 11px;
+}
+
+.tp__14 {
+    width: 100%;
+}
+
+.tp__15 {
+    margin-top: 8px;
+}
+
+.tp__16 {
+    display: flex;
+    margin-top: 6px;
+}
+
+.tp__17 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.tp__18 {
+    background-color: #2196f3;
+    height: 50px;
+    text-align: right;
+}
+
+.tp__19 {
+    margin: 9px 8px 0 0;
+}
+
+.tp__20 {
+    display: flex;
+}
+
+.tp__21 {
+    margin-top: 6px;
+}
+
+.tp__22 {
+    margin-top: 4px;
+    margin-left: 4px;
+}
+
+.tp__23 {
+    margin-bottom: 10px;
+}
+
+.btnSave {
+    background-color: #4caf50;
+    border: 1px solid #4caf50;
+    color: #fff;
+    margin: 9px 8px 0 0;
+}
+
+.btnSave:hover {
+    background-color: #4caf50;
+    border: 1px solid #4caf50;
+    color: #fff;
+}
+
+.btnDelete {
+    background-color: #f44336;
+    border: 1px solid #f44336;
+    color: #fff;
+    margin: 9px 8px 0 0;
+}
+
+.btnDelete:hover {
+    background-color: #f44336;
+    border: 1px solid #f44336;
+    color: #fff;
+}
+
+.btnDelete:hover {
+    background-color: #f44336;
+    border: 1px solid #f44336;
+    color: #fff;
+}
+
+.affixConfig {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 64px;
+    gap: 10px;
+    background-color: #E3F2FD;
+}
+
+.affixConfig_modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 64px;
+    gap: 10px;
+    /* background-color: #1976d2; */
+}
+
+.inputCustom {
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+.formItemDatePicker {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+}
+
+.formItemInput {
+    background-color: transparent;
+    border: none;
+    padding-bottom: 16px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+}
+
+.formItemSelect {
+    background-color: transparent;
+    border: none;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+}
+
+.formItemTitle {
+    margin-bottom: 6px;
+    color: #1890ff;
+}
+
+.formItem {
+    flex: 1;
+}
+
+.formItem input::placeholder {
+    color: #999999;
+}
+
+.formItem input {
+    color: #1d2a43;
+}
+
+.formItem p {
+    font-size: 12px;
+    color: #1976d2;
+}

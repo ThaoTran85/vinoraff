@@ -1,0 +1,161 @@
+.container {
+    /* padding: 10px; */
+    background-color: #fff;
+    margin-bottom: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.contentContainer {
+    /* padding: 10px 0; */
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.12);
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.titleContent {
+    padding: 15px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #d1d1d1;
+    background-color: #86c6f4;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.titleContent h2 {
+    margin-bottom: 0;
+    color: #fff;
+}
+.searchWrapper {
+    border-bottom: 1px solid #d1d1d1;
+    padding: 5px 0;
+    margin-bottom: 0;
+}
+
+.tableWrapper {
+    background-color: #fff;
+    padding: 10px;
+}
+.tableContent {
+    padding: 10px;
+}
+.btnWrapper {
+    display: flex;
+    margin-left: auto;
+    margin-bottom: 24px;
+}
+.wrapperTitle {
+    padding: 16px;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 700;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+.btnSetting {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 16px;
+    margin: 0 16px;
+}
+.modalContent {
+    width: 600px !important;
+}
+
+.formItemWrapper {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.formItem {
+    flex: 1;
+    padding-bottom: 4px;
+    /* background-color: #1976d2; */
+    border-bottom: 1px solid #d1d1d1;
+}
+
+.formItem input {
+    border: none;
+    color: #000 !important;
+
+}
+
+.formItemInput {
+    width: 100%;
+    color: #1d2a43;
+    border: none;
+}
+.formItemDatePicker {
+    width: 100%;
+    color: #000 !important;
+    border: none;
+}
+.formItemDatePicker input {
+    color: #000 !important;
+}
+.formItemSelect {
+    width: 100%;
+    color: #000;
+    padding-bottom: 0;
+    border: none;
+}
+.formItemSelect  {
+    color: #000 !important;
+    
+}
+.selectConfig {
+    border-color: #2196f3;
+    color: #2196f3;
+    width: max-content;
+}
+.wrapperSearch {
+    display: flex;
+    justify-content: space-around;
+    padding: 7px 16px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+.affixConfig {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 64px;
+    gap: 10px;
+
+    /* background-color: #00D2FC; */
+}
+
+.formButtonGroup {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.formButtonGroup button {
+    border: none;
+    outline: none;
+}
+
+.modalWrapper {
+    display: flex;
+    justify-content: center;
+}
+.modalHuyPTTButton {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.modalTitle {
+    text-align: center;
+    padding: 14px 0;
+}
+.affixButtonGroup {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 8px 64px;
+    background-color: #86c6f4;
+}

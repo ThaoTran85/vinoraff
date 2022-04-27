@@ -1,0 +1,76 @@
+.contenContainer {
+    padding: 32px 64px 92px;
+    position: relative;
+    background-color: #fff;
+}
+.contenContent {
+}
+.contentTitle {
+    text-align: center;
+}
+
+.contentTitle h1 {
+    margin-bottom: 24px;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 700;
+}
+
+.contentAlert {
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 16px;
+}
+.formContainer {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.formContent {
+}
+.formItemWrapper {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+}
+.formItem {
+    /* margin-bottom: 16px; */
+    flex: 1;
+}
+
+.formItemTitle {
+    margin-bottom: 6px;
+}
+
+.formItemInput {
+}
+.formItemInput input {
+    width: 100%;
+    margin: 0;
+}
+.formItemDatePicker {
+    width: 100%;
+}
+
+.formButton {
+    background-color: #E3F2FD;
+    padding: 14px 64px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    gap: 10px;
+}
+
+.formButton button {
+    border: none;
+    outline: none;
+    /* background-color: transparent; */
+}
+.saveButton {
+    background-color: #388e3c;
+    color: #fff;
+    margin-right: 8px;
+}

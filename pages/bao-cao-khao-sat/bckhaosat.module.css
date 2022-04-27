@@ -1,0 +1,105 @@
+.container {
+    background-color: lightblue;
+}
+.contentContainer {
+    background-color: #fff;
+    width: 60vw;
+    margin: 0 auto;
+    padding: 24px 32px;
+}
+.contentTitle {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.contentTitle h1 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 32px;
+    margin: 0;
+}
+.imageUpload {
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+}
+.imageUpload img {
+    border: 1px solid royalblue;
+    padding: 5px;
+    margin-right: 5px;
+    width: 140px;
+    object-fit: cover;
+}
+.formItemWrapper {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.formItem {
+    flex: 1;
+    padding-bottom: 4px;
+    /* background-color: #1976d2; */
+    border-bottom: 1px solid #d1d1d1;
+}
+
+.formItem input {
+    border: none;
+}
+
+.formItemInput {
+    width: 100%;
+    color: #1d2a43;
+    border: none;
+}
+.formItemDatePicker {
+    width: 100%;
+    color: #1d2a43;
+    border: none;
+}
+
+.formItemSelect {
+    width: 100%;
+    color: #1d2a43;
+    padding-bottom: 0;
+    border: none;
+}
+.title {
+    text-align: center;
+    margin-bottom: 24px;
+}
+.title h1 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.form {
+    margin: 0 auto;
+    /* position: relative; */
+    padding-bottom: 60px;
+}
+
+.formButtonGroup {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 5px;
+    background-color: #86c6f4;
+}
+.affixButton {
+    display: flex;
+    justify-content: flex-end;
+    padding: 14px 64px;
+}
+
+.saveButton {
+    border: none;
+    margin-right: 8px;
+}
+
+.printButton {
+    border: none;
+    margin-left: 8px;
+}

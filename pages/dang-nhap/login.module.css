@@ -1,0 +1,21 @@
+.btn_login {
+    background: transparent !important;
+    border: none !important;
+    border-radius: 0 !important;
+    border-bottom: 1px solid #000000 !important;
+}
+
+.btn_login:focus {
+    background: transparent !important;
+    border: none !important;
+    border-radius: 0 !important;
+    border-bottom: 1px solid #000000 !important;
+    box-shadow: none;
+}
+
+.btn_login:active {
+    background: transparent !important;
+    border: none !important;
+    border-radius: 0 !important;
+    border-bottom: 1px solid #000000 !important;
+}

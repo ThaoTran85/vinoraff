@@ -1,0 +1,304 @@
+.login-container {
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-radius: 0px;
+  background-image: url("/assets/background-login.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.login-container .ant-spin-container {
+  border-radius: 10px;
+}
+
+.login-container:before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  background-size: cover;
+  background: -webkit-gradient(linear, left top, right bottom, from(#cee7d4), to(#5fa565));
+  background: linear-gradient(to bottom right, #cee7d4, #5fa565);
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+}
+
+.login-container .login-form-button {
+  width: 100%;
+}
+
+.login-container .ant-form-item-label > label,
+.login-container .ant-checkbox {
+  font-size: 13px;
+}
+
+.login-container .ant-form-vertical .ant-form-item-label,
+.login-container .ant-col-24.ant-form-item-label,
+.login-container .ant-col-xl-24.ant-form-item-label {
+  padding: 0;
+}
+
+.login-grid {
+  border-radius: 20px;
+  overflow: hidden;
+  width: 400px;
+  padding: 30px 40px 30px 32px;
+  margin-top: -200px;
+  -webkit-box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+  position: relative;
+  background: rgba(255, 255, 255, 0.25);
+  -webkit-box-shadow: 0px 16px 40px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 16px 40px rgba(0, 0, 0, 0.1);
+  -webkit-backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
+}
+
+.login-grid-left {
+  position: relative;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.login-grid-right {
+  background: rgba(0, 0, 0, 0.6);
+  width: 500px;
+  padding: 0px;
+  background-size: cover;
+  position: relative;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.login-quote-bg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: block;
+  background-blend-mode: multiply;
+  background-image: linear-gradient(215.52deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.46) 74.22%, rgba(0, 0, 0, 0.65) 100%);
+}
+
+.login-quote {
+  padding: 30px;
+  width: 100%;
+  z-index: 1;
+}
+
+.login-quote-text {
+  font-size: 32px;
+  line-height: 42px;
+  margin-bottom: 30px;
+  font-weight: 500;
+  color: white;
+  width: 100%;
+}
+
+.login-quote-source {
+  text-align: right;
+  font-size: 14px;
+  font-style: italic;
+  width: 100%;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+input:-internal-autofill-selected {
+  background-color: white !important;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: inset 0 0 0 50px #fff !important;
+          box-shadow: inset 0 0 0 50px #fff !important;
+}
+
+input[type='email'],
+input[type='password'],
+input[type='text'],
+textarea {
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+}
+
+#basic_password {
+  background: transparent !important;
+  border: none !important;
+  border-radius: 0 !important;
+}
+
+.ant-input-affix-wrapper-focused {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.ant-form-item-has-error :not(.ant-input-disabled):not(.ant-input-borderless).ant-input {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-color: none;
+}
+
+.ant-form-item-has-error :not(.ant-input-disabled):not(.ant-input-borderless).ant-input:focus,
+.ant-form-item-has-error
+:not(.ant-input-affix-wrapper-disabled):not(.ant-input-affix-wrapper-borderless).ant-input-affix-wrapper:focus,
+.ant-form-item-has-error
+:not(.ant-input-number-affix-wrapper-disabled):not(.ant-input-number-affix-wrapper-borderless).ant-input-number-affix-wrapper:focus,
+.ant-form-item-has-error :not(.ant-input-disabled):not(.ant-input-borderless).ant-input-focused,
+.ant-form-item-has-error
+:not(.ant-input-affix-wrapper-disabled):not(.ant-input-affix-wrapper-borderless).ant-input-affix-wrapper-focused,
+.ant-form-item-has-error
+:not(.ant-input-number-affix-wrapper-disabled):not(.ant-input-number-affix-wrapper-borderless).ant-input-number-affix-wrapper-focused {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.ant-notification-notice {
+  background-color: red;
+  color: white;
+}
+
+.ant-notification-notice-with-icon .ant-notification-notice-message {
+  color: white;
+}
+
+.ant-notification-notice-close {
+  color: white;
+}
+
+.anticon.ant-notification-notice-icon-info {
+  color: white;
+}
+
+.loading__overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 9999;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+}
+
+.loading__overlay .ant-spin {
+  margin-top: 4px;
+}
+
+.loading__overlay.is-active {
+  visibility: visible;
+  opacity: 1;
+}
+
+.loading__overlay.is-active .loading__target {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0) scale(1);
+          transform: translate3d(0, 0, 0) scale(1);
+}
+
+.ant-spin-nested-loading > div > .ant-spin {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-height: 100%;
+}
+
+.spin__white .ant-spin-dot-item {
+  color: white;
+}
+
+.ant-spin-blur {
+  z-index: -1;
+  opacity: 1;
+}
+
+.ant-spin-blur::after {
+  opacity: 0.55;
+  pointer-events: auto;
+}
+
+.loading__target {
+  width: 150px;
+  height: 70px;
+  border-radius: 20px;
+  overflow: hidden;
+  width: 230px;
+  border-radius: 13px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.95);
+  will-change: transform, opacity;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  opacity: 0;
+  -webkit-transform: translate3d(0, 0, 0) scale(1.185);
+          transform: translate3d(0, 0, 0) scale(1.185);
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+  will-change: transform, opacity;
+  opacity: 1;
+}
+
+.loading__text {
+  font-size: 16px;
+  color: gray("800");
+  margin-left: 15px;
+  margin-bottom: 0px;
+}
+/*# sourceMappingURL=login.css.map */
